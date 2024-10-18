@@ -8,13 +8,11 @@ The pipeline predictions typically follow this format:
 
 ```python
 {
-    "results": {
         "dit": {
             "bboxes": [], 
             "scores": [], 
             "classes": []
         }
-    }
 }
 ```
 The provided script converts these pipeline predictions into a format compatible with Label Studio, enabling seamless loading of model-generated outputs.
