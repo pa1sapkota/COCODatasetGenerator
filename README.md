@@ -20,7 +20,7 @@ The provided script converts these pipeline predictions into a format compatible
 # Running the Script  
 
 ```bash 
-python convert_pipeline_pred_to_ls.py 
+python convert_pipeline_pred_to_ls.py --img_dir "images" --json_dir "pipeline" --coco_dir "coco" --ls_dir "labelstudio"
 
 ```
 
